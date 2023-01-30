@@ -1,0 +1,14 @@
+asyncio==3.4.3
+aiofiles==22.1.0
+aiohttp==3.8.3
+numpy==1.24.1
+pillow==9.4.0
+psutil====5.9.4
+pyrogram==2.0.97
+py-tgcalls==0.9.7
+python-dotenv==0.21.1
+tgcrypto==1.2.5
+speedtest-cli==2.1.3
+git+https://github.com/yt-dlp/yt-dlp@master
+git+https://github.com/alexmercerind/youtube-search-python@main
+git+https://github.com/joetats/youtube_search@master
