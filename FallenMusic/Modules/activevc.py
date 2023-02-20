@@ -43,7 +43,7 @@ async def activevc(_, message: Message):
             user = (await app.get_chat(chat)).username
             text += f"<b>{j + 1}.</b>  [{title}](https://t.me/{user})\n"
         else:
-            text += f"<b>{j + 1}. {title}</b> [`{x}`]\n"
+            text += f"<b>{j + 1}. {title}</b> [`{chat}`]\n"
         j += 1
     if not text:
         await mystic.edit_text("ɴᴏ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇᴄʜᴀᴛs ᴏɴ ᴍᴜsɪᴄʙᴏᴛ...")
