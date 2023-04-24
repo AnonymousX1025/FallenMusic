@@ -58,27 +58,27 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"✯ ғᴀʟʟᴇɴ ᴍᴜsɪᴄ ʙᴏᴛ ✯\n\n𖢵 ɪᴅ : `{BOT_ID}`\n𖢵 ɴᴀᴍᴇ : {BOT_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{BOT_USERNAME}",
+            f"✯ ғᴀʟʟᴇɴ ᴍᴜsɪᴄ ʙᴏᴛ ✯\n\n𖢵 ɪᴅ : `{5853751357}`\n𖢵 ɴᴀᴍᴇ : {xᴏxᴏ ☊ ᴍᴜsɪᴄ}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{XoXo_MuSicBoT}",
         )
     except:
         LOGGER.error(
-            f"{BOT_NAME} failed to send message at @{SUNAME}, please go & check."
+            f"{xᴏxᴏ ☊ ᴍᴜsɪᴄ} failed to send message at @{XoXo_MuSicBoT}, please go & check."
         )
 
     try:
         await app2.send_message(
             SUNAME,
-            f"✯ ғᴀʟʟᴇɴ ᴍᴜsɪᴄ ᴀss ✯\n\n𖢵 ɪᴅ : `{ASS_ID}`\n𖢵 ɴᴀᴍᴇ : {ASS_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{ASS_USERNAME}",
+            f"✯ ғᴀʟʟᴇɴ ᴍᴜsɪᴄ ᴀss ✯\n\n𖢵 ɪᴅ : `{5827163072}`\n𖢵 ɴᴀᴍᴇ : {❛✘❍✘❍❟ ☊ ❛𝘼𝙎𝙎𝙞𝙎𝙏𝘼𝙉𝙏❟}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{L2F_XOXO_MUSIC}",
         )
     except:
         LOGGER.error(
-            f"{ASS_NAME} failed to send message at @{SUNAME}, please go & check."
+            f"{❛✘❍✘❍❟ ☊ ❛𝘼𝙎𝙎𝙞𝙎𝙏𝘼𝙉𝙏❟} failed to send message at @{L2F_XOXO_MUSIC}, please go & check."
         )
 
-    await app2.send_message(BOT_USERNAME, "/start")
+    await app2.send_message(XoXo_MuSicBoT, "/start")
 
-    LOGGER.info(f"[•] Bot Started As {BOT_NAME}.")
-    LOGGER.info(f"[•] Assistant Started As {ASS_NAME}.")
+    LOGGER.info(f"[•] Bot Started As {xᴏxᴏ ☊ ᴍᴜsɪᴄ}.")
+    LOGGER.info(f"[•] Assistant Started As {❛✘❍✘❍❟ ☊ ❛𝘼𝙎𝙎𝙞𝙎𝙏𝘼𝙉𝙏❟}.")
 
     LOGGER.info(
         "[•] \x53\x74\x61\x72\x74\x69\x6e\x67\x20\x50\x79\x54\x67\x43\x61\x6c\x6c\x73\x20\x43\x6c\x69\x65\x6e\x74\x2e\x2e\x2e"
