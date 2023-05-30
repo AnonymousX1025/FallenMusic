@@ -1,6 +1,6 @@
 import asyncio
 
-from pyrogram import Client
+from pyrogram import Client, __version__ as ver
 
 
 API_ID = input("\nEnter Your API ID :\n > ")
