@@ -1,6 +1,6 @@
 asyncio==3.4.3
 aiofiles==23.2.1
-aiohttp==3.8.5
+aiohttp==3.9.0
 numpy==1.26.0
 pillow==10.0.1
 psutil
