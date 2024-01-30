@@ -1,7 +1,7 @@
 {
-    "name": "ғᴀʟʟᴇɴ ダ ᴍᴜsɪᴄ",
-    "description": "A VC Player Bot for telegram videochats, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/6f99c49bdb4679acad717.jpg",
+    "name": "𝙽𝚊𝚣 𝙼𝚞𝚜𝚒𝚌",
+    "description": "Pyrogram və Py-Tgcalls ilə Python dilində yazılmış teleqram videoçatları üçün VC Player Botu.",
+    "logo": "https://graph.org/file/5436be4a13f4a4d76d766.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -12,39 +12,59 @@
     ],
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
+        "value": "29754608",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "description": "Bu dəyəri https://my.telegram.org saytından əldə edin",
+        "value": "cf64e2f089fc9ea9b52b713ab6328c44",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
-        "value": "",
+        "description": "Botfather-dən Bot nişanı",
+        "value": "6599309183:AAHkynlRB5Mj2U2AV972lMgAx8_0oSBmhx4",
         "required": true
       },
       "OWNER_ID": {
-        "description": "Fill your user id here. (Must be integer)",
-        "value": "1356469075",
+        "description": "İstifadəçi ID-nizi burada doldurun. (tam ədəd olmalıdır)",
+        "value": "5045429385",
+        "required": true
+      },
+        "PING_IMG": {
+        "description": "ping image",
+        "value": "https://telegra.ph/file/a85a94c666e60602e0ec3.jpg",
+        "required": true
+      },
+        "START_VIDOE": {
+        "description": "START_IMG imge",
+        "value": "https://graph.org/file/6e8a634809daa3c0ddff6.mp4",
+        "required": true
+      },
+        "FAILED": {
+        "description": "yanit play music imge",
+        "value": "https://graph.org/file/3ddb80b64eec67d947cf2.jpg",
         "required": true
       },
       "SESSION": {
-        "description": "A pyrogram v2 string session from @StringFatherBot",
-        "value": "",
+        "description": "@Telegram-dan piroqram v2 sim seansı",
+        "value": "AgHGBPAApE9Sedjt9mV_6rNszqBp6vSdcj-7MbJk_KLMb-W3qvQUBgeGwyADCtK_qKxf7L4cFexnmcQHqQtHgxftiY4KwY19z6SChoIOFWmfshN9GO535Pr9uYb8KieiavhB9e9YqYY3ME3t56zypoDZ5D-7e_s9OMxLJdCovC1MquZEBaUYSkzyWNJtco9zEHZHfA2_2aDhnT9NvULzc3f8Ir2rh1Jf63Dke8xvfN4Grjkc4-34ELTS9BldcrEAu4xsGOT8kpNyM-fJyeGYGsu_ajC4mJL5yeYirL1mwHfaWzL5JxgKK13Zh9QN4fQt2B7HJgNrgwAHrtec3PvstXQqcRr6LQAAAAF4FZRNAA",
         "required": true
       },
       "SUDO_USERS": {
-        "description": "The user id(s) of user(s) whom you would like to add as a sudo. Multiple values shall be seperated with a space.",
-        "value": "",
+        "description": "Sudo kimi əlavə etmək istədiyiniz istifadəçi(lər)in istifadəçi id(ləri). Çoxsaylı dəyərlər boşluqla ayrılmalıdır.",
+        "value": "5396443978 5540240707 6596287563 6073177556 1323681889 1272175992",
+        "required": true
+      },
+        "SUPPORT_CHANNEL": {
+        "description": "Telegram dəstək qrupunuzun linki. (İctimaiyyətdə olmalıdır)",
+        "value": "https://t.me/neonfedresmi",
         "required": true
       },
       "SUPPORT_CHAT": {
-        "description": "Link of your telegram support group. (Must pe public)",
-        "value": "https://t.me/DevilsHeavenMF",
-        "required": false
+        "description": "Telegram dəstək qrupunuzun linki. (İctimaiyyətdə olmalıdır)",
+        "value": "https://t.me/neonfedchat",
+        "required": true
       }
     },
     "buildpacks": [
@@ -59,4 +79,4 @@
           }
       ],
       "stack": "container"
-  }
+}
