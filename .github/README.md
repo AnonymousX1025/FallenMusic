@@ -8,7 +8,7 @@
   <img src="https://te.legra.ph/file/1f070ea3147e2a3ef44e4.jpg">
 </p>
 
-_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ғᴀʟʟᴇɴ ✘ ᴍᴜsɪᴄ](https://t.me/FallenMusicBot)**_
+_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ғᴀʟʟᴇɴ ✘ ᴍᴜsɪᴄ](https://t.me/Harry_probot)**_
 ━━━━━━━━━━━━━━━━━━━━
 
 <p align="center">
@@ -23,7 +23,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ғᴀʟʟᴇɴ ✘ 
 ━━━━━━━━━━━━━━━━━━━━
 
 <p align="center">
-  <img src="https://te.legra.ph/file/8a38f66826c2ea5e97724.jpg">
+  <img src="https://te.legra.ph/file/b09cdfe8fb553fdd976eb.jpg">
 </p>
 
 <p align="center">
@@ -68,7 +68,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 Press `Ctrl+b` and then `d`
 
 <p align="center">
-  <img src="https://te.legra.ph/file/b09cdfe8fb553fdd976eb.jpg">
+  <img src="https://telegra.ph/file/a2b0719d5ad7ac78b8ec1.jpg">
 </p>
 
 </details>
@@ -82,7 +82,7 @@ Press `Ctrl+b` and then `d`
 <a href="https://telegram.me/DevilsHeavenMF"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <p align="center">
-<a href="https://telegram.me/FallenAssociation"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/WAYNE_NETWEB"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 ━━━━━━━━━━━━━━━━━━━━
