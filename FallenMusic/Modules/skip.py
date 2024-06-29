@@ -28,7 +28,7 @@ from FallenMusic import BOT_USERNAME, app, fallendb, pytgcalls
 from FallenMusic.Helpers import _clear_, admin_check, buttons, close_key, gen_thumb
 
 
-@app.on_message(filters.command(["skip", "next"]) & filters.group)
+@app.on_message(filters.command(["skip", "next", "atla"]) & filters.group)
 @admin_check
 async def skip_str(_, message: Message):
     try:
@@ -41,7 +41,7 @@ async def skip_str(_, message: Message):
             await _clear_(message.chat.id)
             await pytgcalls.leave_group_call(message.chat.id)
             await message.reply_text(
-                text=f"➻ sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ 🥺\n│ \n└ʙʏ : {message.from_user.mention} 🥀\n\n**» ɴᴏ ᴍᴏʀᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ɪɴ** {message.chat.title}, **ʟᴇᴀᴠɪɴɢ ᴠɪᴅᴇᴏᴄʜᴀᴛ.**",
+                text=f"➻ Şarkı atlatıldı🥺\n│ \nTarafından : {message.from_user.mention} 🥀\n\n**» sırada şarkı yok** {message.chat.title}, **Gidiyorum bb.**",
                 reply_markup=close_key,
             )
         except:
@@ -66,12 +66,12 @@ async def skip_str(_, message: Message):
             return await pytgcalls.leave_group_call(message.chat.id)
 
         await message.reply_text(
-            text=f"➻ sᴛʀᴇᴀᴍ sᴋɪᴩᴩᴇᴅ 🥺\n│ \n└ʙʏ : {message.from_user.mention} 🥀",
+            text=f"➻ Şarkı atlatıldı 🥺\n│ \nTarafından : {message.from_user.mention} 🥀",
             reply_markup=close_key,
         )
         img = await gen_thumb(videoid, user_id)
         return await message.reply_photo(
             photo=img,
-            caption=f"**➻ sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n\n‣ **ᴛɪᴛʟᴇ :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` ᴍɪɴᴜᴛᴇs\n‣ **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {req_by}",
+            caption=f"**➻ Yayın başlatıldı**\n\n‣ **başlık :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **Süre :** `{duration}` Dakika\n‣ **İsteyen kişi :** {req_by}",
             reply_markup=buttons,
         )
