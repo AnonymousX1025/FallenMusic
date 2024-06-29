@@ -46,4 +46,4 @@ async def clear_misc(_, message: Message):
     if os_dir:
         for lel in os.listdir(pth):
             os.system("rm -rf *.webm *.jpg *.png")
-    await message.reply_text("» ᴀʟʟ ᴛᴇᴍᴘ ᴅɪʀᴇᴄᴛᴏʀɪᴇs ᴄʟᴇᴀɴᴇᴅ.")
+    await message.reply_text("» Tüm İndirilenler temizlendi.")
