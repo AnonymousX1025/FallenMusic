@@ -251,8 +251,10 @@ async def play(_, message: Message):
         await add_active_chat(message.chat.id)
         await message.reply_photo(
             photo=imgt,
-            caption=f"**➻ Yayın Başladı**\n\n‣ **Başlık 
-            :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n‣ **Süre :** `{duration}` Dakika\n‣ * :** {ruser}",
+            caption = f"**➻ Yayın Başladı**\n\n" \
+          f"‣ **Başlık :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n" \
+          f"‣ **Süre :** `{duration}` Dakika\n" \
+          f"‣ **Yayıncı :** {ruser}",
             reply_markup=buttons,
         )
 
