@@ -24,9 +24,9 @@ from FallenMusic import BOT_NAME
 
 PM_START_TEXT = """
 Merhaba {0}, 🥀
-๏ Bu **{1}**!
+๏ Ben **{1}**!
 
-➻ Hızlı ve güçlü bir müzik çalma botu.
+➻ BotAltyapi Kanalı tarafından Türkçe şeklinde tasarlanmış bir botum.
 """
 
 START_TEXT = """
