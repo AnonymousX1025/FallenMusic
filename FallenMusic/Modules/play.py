@@ -142,14 +142,14 @@ async def play(_, message: Message):
     )
     url = get_url(message)
     if audio:
-        if round(audio.duration / 60) > DURATION_LIMIT:
+        if round(audio.duration / 120) > DURATION_LIMIT:
             raise DurationLimitError(
                 f"» Üzgünüm bebeğim, parça çok uzun süre  {DURATION_LIMIT} Dakikalar oynamak için izin verilmiyor {BOT_NAME}."
             )
 
         file_name = get_file_name(audio)
         title = file_name
-        duration = round(audio.duration / 60)
+        duration = round(audio.duration / 120)
         file_path = (
             await message.reply_to_message.download(file_name)
             if not os.path.isfile(os.path.join("downloads", file_name))
@@ -166,14 +166,14 @@ async def play(_, message: Message):
             secmul, dur, dur_arr = 1, 0, duration.split(":")
             for i in range(len(dur_arr) - 1, -1, -1):
                 dur += int(dur_arr[i]) * secmul
-                secmul *= 60
+                secmul *= 120
 
         except Exception as e:
             return await fallen.edit_text(f"birşeyler yanlış gitti\n\n**Hata :** `{e}`")
 
-        if (dur / 60) > DURATION_LIMIT:
+        if (dur / 120) > DURATION_LIMIT:
             return await fallen.edit_text(
-                f"» Üzgünüm bebeğim, parça çok uzun süre  {DURATION_LIMIT} Dakika max 60 dakika {BOT_NAME}."
+                f"» Üzgünüm bebeğim, parça çok uzun süre  {DURATION_LIMIT} Max Dakika {BOT_NAME}."
             )
         file_path = audio_dl(url)
     else:
@@ -191,15 +191,15 @@ async def play(_, message: Message):
             secmul, dur, dur_arr = 1, 0, duration.split(":")
             for i in range(len(dur_arr) - 1, -1, -1):
                 dur += int(dur_arr[i]) * secmul
-                secmul *= 60
+                secmul *= 120
 
         except Exception as e:
             LOGGER.error(str(e))
             return await fallen.edit("» Sorgu işlenemedi, tekrar dene...")
 
-        if (dur / 60) > DURATION_LIMIT:
+        if (dur / 120) > DURATION_LIMIT:
             return await fallen.edit(
-                f"» üzgünüm bebeğim parça çok uzun süre  {DURATION_LIMIT} max dakika 60 dakika {BOT_NAME}."
+                f"» üzgünüm bebeğim parça çok uzun süre  {DURATION_LIMIT} max dakika  {BOT_NAME}."
             )
         file_path = audio_dl(url)
 
