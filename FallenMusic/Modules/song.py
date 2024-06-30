@@ -68,7 +68,7 @@ async def song(_, message: Message):
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(dur_arr[i]) * secmul
-            secmul *= 60
+            secmul *= 300
         try:
             visit_butt = InlineKeyboardMarkup(
                 [
