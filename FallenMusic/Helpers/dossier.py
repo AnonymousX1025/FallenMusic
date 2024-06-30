@@ -40,18 +40,18 @@ START_TEXT = """
 HELP_TEXT = f"""
 <u>❄ **{BOT_NAME} KULLANICILARI İÇİN KULLANILABİLİR KOMUTLAR :**</u>
 
-๏ /play : Video sohbetinde istenen parçayı çalmaya başlar.
-๏ /pause : Şu anda çalan akışı duraklatır.
-๏ /resume : Duraklatılmış akışı devam ettirir.
-๏ /skip : Şu anda çalınan akışı atlar ve sıradaki parçayı çalmaya başlar.
-๏ /end : Sırayı temizler ve şu anda çalınan akışı sonlandırır.
+๏ /oynat : Video sohbetinde istenen parçayı çalmaya başlar.
+๏ /durdur : Şu anda çalan akışı duraklatır.
+๏ /devam : Duraklatılmış akışı devam ettirir.
+๏ /atla : Şu anda çalınan akışı atlar ve sıradaki parçayı çalmaya başlar.
+๏ /son : Sırayı temizler ve şu anda çalınan akışı sonlandırır.
 
 ๏ /ping : Botun ping'ini ve sistem istatistiklerini gösterir.
 ๏ /sudolist : Botun sudo kullanıcılarının listesini gösterir.
 
-๏ /song : İstenen şarkıyı indirir ve size gönderir.
+๏ /indir : İstenen şarkıyı indirir ve size gönderir.
 
-๏ /search : Verilen sorguyu YouTube'da arar ve sonuçları size gösterir.
+๏ /arama : Verilen sorguyu YouTube'da arar ve sonuçları size gösterir.
 """
 
 HELP_SUDO = f"""
