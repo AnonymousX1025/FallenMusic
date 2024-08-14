@@ -4,10 +4,10 @@ aiohttp==3.9.3
 numpy==1.26.4
 pillow==10.2.0
 psutil
-pyrogram==2.0.106
+pyrofork
 py-tgcalls==0.9.7
 python-dotenv==1.0.1
-tgcrypto==1.2.5
+tgcrypto-pyrofork~=1.2.6
 speedtest-cli==2.1.3
 git+https://github.com/yt-dlp/yt-dlp@master
 git+https://github.com/alexmercerind/youtube-search-python@main
