@@ -1,7 +1,7 @@
 aiofiles==23.2.1
 aiohttp==3.9.5
 numpy==1.26.4
-pillow==10.2.0
+pillow==11.1.0
 psutil
 kurigram==2.2.1
 py-tgcalls==0.9.7
